@@ -2,8 +2,8 @@
   "name": "ch02-2",
   "packageManager": "yarn@3.2.1",
   "scripts": {
-    "build": "ts-node ./src",
-    "tsc": "tsc --build tsconfig.json",
+    "ts-node": "ts-node ./src",
+    "build": "tsc --build tsconfig.json",
     "start": "node ./dist/index.js"
   },
   "workspaces": [
